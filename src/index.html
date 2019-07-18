@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Barista Project</title>
+    <link rel="stylesheet" href="lib/dataTable.min.css">
+    <link rel="stylesheet" href="style/css/style.css">
+
+    <script src="lib/jquery.min.js"></script>
+    <script src="lib/dataTable.min.js"></script>
+</head>
+<body>
+    <div class="baristaMaineContainer">
+        <div id="cofee" data-id="Coffee" class="baristaButtom">Coffee <div class="beveragePrice"></div></div>
+        <div id="decafCoffee" data-id="Decaf Coffee" class="baristaButtom">Decaf Coffee <div class="beveragePrice"></div></div>
+        <div id="caffeLatte" data-id="Caffe Latte" class="baristaButtom">Caffe Latte <div class="beveragePrice"></div></div>
+        <div id="caffeAmericano" data-id="Caffe Americano" class="baristaButtom">Caffe Americano <div class="beveragePrice"></div></div>
+        <div id="caffeMocha" data-id="Caffe Mocha" class="baristaButtom">Caffe Mocha <div class="beveragePrice"></div></div>
+        <div id="cappuccino" data-id="Cappuccino" class="baristaButtom">Cappuccino <div class="beveragePrice"></div></div>
+    </div>
+
+    <table id="inventoryTable" style="width:100%">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Count</th>
+        </tr>
+        </thead>
+    </table>
+
+    <script>
+        $(document).ready(function() {
+            new BaristaMain();
+        });
+    </script>
+    <script src="scripts/js/InventoryView.js"></script>
+    <script src="scripts/js/Inventory.js"></script>
+    <script src="scripts/js/BaristaMain.js"></script>
+    <script src="scripts/js/DataManager.js"></script>
+    <script src= "scripts/js/BeveragesIngredientFactory.js"></script>
+</body>
+</html>

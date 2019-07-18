@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Coffee",
+    "price": "$0.75",
+    "count": "20"
+  },
+  {
+    "name": "Espresso",
+    "price": "$0.75",
+    "count": "25"
+  },
+  {
+    "name": "Decaf Coffee",
+    "price": "$0.75",
+    "count": "35"
+  },
+  {
+    "name": "Cocoa",
+    "price": "$0.5",
+    "count": "25"
+  },
+  {
+    "name": "Sugar",
+    "price": "$0.25",
+    "count": "5"
+  },
+  {
+    "name": "Cream",
+    "price": "$0.25",
+    "count": "35"
+  },
+  {
+    "name": "Steamed Milk",
+    "price": "$0.35",
+    "count": "35"
+  },
+  {
+    "name": "Foamed Milk",
+    "price": "$0.35",
+    "count": "35"
+  }
+]

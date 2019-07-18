@@ -1,0 +1,13 @@
+{
+  "files": [
+    "src/scripts/Inventory.ts",
+    "src/scripts/InventoryView.ts",
+    "src/scripts/BaristaMain.ts",
+    "src/scripts/DataManager.ts",
+    "src/scripts/BeveragesIngredientFactory.ts"
+  ],
+  "compilerOptions": {
+    "sourceMap": true,
+    "target": "es2017"
+  }
+}
