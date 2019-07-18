@@ -10,6 +10,7 @@
     <script src="lib/dataTable.min.js"></script>
 </head>
 <body>
+    <h1 class="headerTitle">Choose your drinks!</h1>
     <div class="baristaMaineContainer">
         <div id="cofee" data-id="Coffee" class="baristaButtom">Coffee <div class="beveragePrice"></div></div>
         <div id="decafCoffee" data-id="Decaf Coffee" class="baristaButtom">Decaf Coffee <div class="beveragePrice"></div></div>
@@ -19,15 +20,19 @@
         <div id="cappuccino" data-id="Cappuccino" class="baristaButtom">Cappuccino <div class="beveragePrice"></div></div>
     </div>
 
-    <table id="inventoryTable" style="width:100%">
-        <thead>
-        <tr>
-            <th>Name</th>
-            <th>Price</th>
-            <th>Count</th>
-        </tr>
-        </thead>
-    </table>
+   <div class="tableInventoryWrapper">
+       <h2>Inventory list</h2>
+       <table id="inventoryTable" style="width:100%">
+           <thead>
+           <tr>
+               <th>Name</th>
+               <th>Price</th>
+               <th>Count*</th>
+           </tr>
+           </thead>
+       </table>
+       <h3>*Add ingredients by clicking on number in column 'Count'</h3>
+   </div>
 
     <script>
         $(document).ready(function() {

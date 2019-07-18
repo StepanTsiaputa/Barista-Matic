@@ -90,33 +90,45 @@ class BaristaMain{
         let name = target.attr('data-id');
         switch (name) {
             case drinkName.coffee:
-                this._inventory.getAllIng(this._ingredienFactory.getBeveragesIngredient(name)).catch(() => {
-                    alert('Not enough ingredients for beverage');
+                this._inventory.getAllIng(this._ingredienFactory.getBeveragesIngredient(name)).then(() => {
+                    alert(`Your ${name} is ready. Enjoy!`);
+                }).catch(() => {
+                    alert(`Not enough ingredients for ${name}`);
                 });
                 break;
             case drinkName.decafCoffee:
-                this._inventory.getAllIng(this._ingredienFactory.getBeveragesIngredient(name)).catch(() => {
-                    alert('Not enough ingredients for beverage');
+                this._inventory.getAllIng(this._ingredienFactory.getBeveragesIngredient(name)).then(() => {
+                    alert(`Your ${name} is ready. Enjoy!`);
+                }).catch(() => {
+                    alert(`Not enough ingredients for ${name}`);
                 });
                 break;
             case drinkName.caffeLatte:
-                this._inventory.getAllIng(this._ingredienFactory.getBeveragesIngredient(name)).catch(() => {
-                    alert('Not enough ingredients for beverage');
+                this._inventory.getAllIng(this._ingredienFactory.getBeveragesIngredient(name)).then(() => {
+                    alert(`Your ${name} is ready. Enjoy!`);
+                }).catch(() => {
+                    alert(`Not enough ingredients for ${name}`);
                 });
                 break;
             case drinkName.caffeAmericano:
-                this._inventory.getAllIng(this._ingredienFactory.getBeveragesIngredient(name)).catch(() => {
-                    alert('Not enough ingredients for beverage');
+                this._inventory.getAllIng(this._ingredienFactory.getBeveragesIngredient(name)).then(() => {
+                    alert(`Your ${name} is ready. Enjoy!`);
+                }).catch(() => {
+                    alert(`Not enough ingredients for ${name}`);
                 });
                 break;
             case drinkName.caffeMocha:
-                this._inventory.getAllIng(this._ingredienFactory.getBeveragesIngredient(name)).catch(() => {
-                    alert('Not enough ingredients for beverage');
+                this._inventory.getAllIng(this._ingredienFactory.getBeveragesIngredient(name)).then(() => {
+                    alert(`Your ${name} is ready. Enjoy!`);
+                }).catch(() => {
+                    alert(`Not enough ingredients for ${name}`);
                 });
                 break;
             case drinkName.cappuccino:
-                this._inventory.getAllIng(this._ingredienFactory.getBeveragesIngredient(name)).catch(() => {
-                    alert('Not enough ingredients for beverage');
+                this._inventory.getAllIng(this._ingredienFactory.getBeveragesIngredient(name)).then(() => {
+                    alert(`Your ${name} is ready. Enjoy!`);
+                }).catch(() => {
+                    alert(`Not enough ingredients for ${name}`);
                 });
                 break;
             default:

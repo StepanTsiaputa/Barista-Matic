@@ -17,5 +17,8 @@
     "gulp-sass": "4.0.2",
     "gulp-typescript": "~5.0.1",
     "typescript": "~3.5.3"
+  },
+  "dependencies": {
+    "@types/jquery": "3.3.30"
   }
 }

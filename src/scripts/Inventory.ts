@@ -55,6 +55,6 @@ class Inventory {
             }
         }
 
-        return `$${price}`;
+        return `$${price.toFixed(2)}`;
     }
 }
